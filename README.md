@@ -1,4 +1,4 @@
-# POE1 装备转 POB（国服中译英）
+﻿# POE1 装备转 POB（国服中译英）
 
 国服《流放之路》装备信息一键转成 Path of Building 能识别的英文。**纯离线运行**，词库内置，不依赖任何服务器。
 
@@ -14,7 +14,7 @@
 
 然后点这个链接安装：
 
-**[⬇ 安装脚本](https://raw.githubusercontent.com/USERNAME/poe-item-to-pob/main/poe-item-to-pob.user.js)**
+**[⬇ 安装脚本](https://raw.githubusercontent.com/gooyoy/poe-item-to-pob/main/poe-item-to-pob.user.js)**
 
 > 脚本 5.3 MB，安装时会卡一两秒 —— 因为把完整词库（36,347 条）打包进去了，这样才能纯离线运行。装完是本地的，以后打开秒开。
 
