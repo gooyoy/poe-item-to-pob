@@ -6,7 +6,13 @@
 
 **市集页面** — 每个搜索结果旁会出现 `⧉ POB` 按钮，点一下直接复制成英文，去 POB 的 Items 页 `Ctrl+V` 即可。
 
+![市集页效果](docs/screenshot-trade.png)
+
 **游戏内复制** — 游戏里鼠标悬停装备按 `Ctrl+C`，切到浏览器按 `Alt+V` 打开面板，粘贴后自动转换。
+
+![转换面板](docs/screenshot-panel.png)
+
+左栏粘中文、右栏出英文，未翻译的行会单独列出来（POB 会忽略它们，不影响其余属性计算）。
 
 ## 安装
 
@@ -17,6 +23,18 @@
 **[⬇ 安装脚本](https://raw.githubusercontent.com/gooyoy/poe-item-to-pob/main/poe-item-to-pob.user.js)**
 
 > 脚本 5.3 MB，安装时会卡一两秒 —— 因为把完整词库（36,347 条）打包进去了，这样才能纯离线运行。装完是本地的，以后打开秒开。
+
+### 如果点了没反应 / 一直跳转
+
+这种情况是浏览器没把链接交给 Tampermonkey，而是自己去显示这个 5.3 MB 的文本文件了。用下面任一种方式都能装上：
+
+**方式一 · 保存后导入**
+
+右键上面的安装链接选「链接另存为」，存成 `poe-item-to-pob.user.js`。然后点浏览器里的 Tampermonkey 图标 → 管理面板 → 最右侧「实用工具」标签 → 在「导入」区域选择这个文件 → 点导入。
+
+**方式二 · 从仓库文件页安装**
+
+打开 [poe-item-to-pob.user.js](https://github.com/gooyoy/poe-item-to-pob/blob/main/poe-item-to-pob.user.js)，点右上角的 **Raw** 按钮，Tampermonkey 通常会直接弹出安装页。
 
 安装后打开市集页面，右下角出现金色 POB 球就表示生效了。
 
