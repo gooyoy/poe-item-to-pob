@@ -6,11 +6,11 @@
 
 **市集页面** — 每个搜索结果旁会出现 `⧉ POB` 按钮，点一下直接复制成英文，去 POB 的 Items 页 `Ctrl+V` 即可。
 
-![市集页效果](docs/screenshot-trade.png)
+![市集页效果](https://raw.gitcode.com/lovegun/poe-item-to-pob/files/main/docs/screenshot-trade.png?v=2)
 
 **游戏内复制** — 游戏里鼠标悬停装备按 `Ctrl+C`，切到浏览器按 `Alt+V` 打开面板，粘贴后自动转换。
 
-![转换面板](docs/screenshot-panel.png)
+![转换面板](https://raw.gitcode.com/lovegun/poe-item-to-pob/files/main/docs/screenshot-panel.png?v=2)
 
 左栏粘中文、右栏出英文，未翻译的行会单独列出来（POB 会忽略它们，不影响其余属性计算）。
 
